@@ -28,12 +28,12 @@ header .logo{
     width: 15%;
     height:25px; 
     text-align: justify;
-    
 }
 section{
     background-color:#c0c0c0;
     margin: 10px;
     height: 90px;
+   
 }
 section .foto-banner{
     text-align: center;
@@ -41,3 +41,14 @@ section .foto-banner{
     height: 100px;
 
 }
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+     
+}
+.divfoto{
+    margin: auto; 
+    border: black;
+}
+ 
