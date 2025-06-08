@@ -2,53 +2,68 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
     background-color: antiquewhite;
 }
-header, section, footer{
-    border: 3px solid black;
+body{
+    padding: 10px;  
 }
-.container{
-    width: 80%;
-    margin: 0 auto;
-}
-header{
-    background-color: brown;
-    height: 65px;   
-}
-header .logo{
-    background-color: bisque;
-    margin-top: 15px;
-    margin-left: 20px;
-    margin-right:20px;
-    border: 3px solid black;
-    border-radius: #c0c0c0;
-    width: 15%;
-    height:25px; 
-    text-align: justify;
-}
-section{
-    background-color:#c0c0c0;
-    margin: 10px;
-    height: 90px;
-   
-}
-section .foto-banner{
-    text-align: center;
-    margin-top: 25px;
-    height: 100px;
-
-}
-.container{
-    width: 80%;
-    margin: auto;
+.topo{
+    border: 5px solid black;
     padding: 20px;
-     
+    position: relative;
+    background-color:brown;
 }
-.divfoto{
+.logo{
+    border: 3px solid black;
+    width: 100px;
+    padding: 5px;
+    margin: 5px; 
+}
+.container{
+    width: 80%;
     margin: auto; 
-    border: black;
 }
- 
+.banner{
+    border: 5px solid black;
+    padding: 40px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.fotobanner{
+    border: 5px solid black;
+    padding: 20px;
+    text-align: center;
+    background-color:brown;
+}
+.duascolunas{
+    display: flex;
+    gap: 15px;
+    border: 5px solid black;
+    padding: 15px;
+}
+.trescolunas{
+    display: flex;
+    gap: 15px;
+    border: 5px solid black;
+    padding: 15px;
+    margin-top: 8px;
+}
+.umacoluna{
+    border: 5px solid black;
+    margin-bottom: 15px;
+    padding: 8px;
+    margin-top: 15px;
+}
+.caixa{
+    border: 3px solid black;
+    padding: 35px;
+    flex: 1;
+    text-align: center;
+    background-color: #c0c0c0;
+}
+.footer{
+    border: 5px solid black;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
